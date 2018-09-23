@@ -18,12 +18,15 @@ header {
   background-color: white;
 }
 
+a {
+  color: black;
+}
+
 .logo {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   padding-left: 30px;
-  border: solid black 1px;
   padding-right: 840px;
 }
 
@@ -60,6 +63,7 @@ nav span {
   align-items: center;
   justify-content: space-around;
   width: 1300px;
+  margin-bottom: 80px;
 }
 
 .large {
@@ -87,6 +91,8 @@ nav span {
   color: white;
   background-image: url("./../images/img-story-main.png");
   height: 300px;
+  align-items: center;
+  padding-left: 25px;
 }
 
 .monument {
@@ -111,9 +117,15 @@ nav span {
   color: black;
 }
 
+.orca h2,
+.burger h2 {
+  font-size: 30px;
+}
+
 .earth {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-image: url("./../images/img-story-2.png");
   width: 299px;
   height: 300px;
@@ -142,6 +154,7 @@ nav span {
 .camera {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-image: url("./../images/img-story-3.png");
   height: 300px;
   width: 299px;
@@ -178,8 +191,13 @@ nav span {
   color: black;
 }
 
+.fbi h2{
+  font-size: 30px;
+}
+
 .cats {
   display: flex;
+  align-items: center;
   background-image: url("./../images/img-story-1.png");
   height: 300px;
   margin-top: 15px;
@@ -200,7 +218,7 @@ nav span {
 .small {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start ;
   align-items: center;
   align-content: flex-end;
   flex-wrap: wrap;
@@ -215,6 +233,10 @@ nav span {
   color: black;
   text-align: center;
   width: 100%;
+}
+
+.news h3 {
+  padding-bottom: 25px;
 }
 
 .newslist {
@@ -233,4 +255,42 @@ nav span {
   text-align: left;
   font-weight: normal;
 
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  font-family: Verdana;
+  font-size: 12px;
+  align-items: center;
+  height: 325px;
+  background-color: MediumAquamarine;
+}
+
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  padding-right: 25px;
+  border-right: white solid 2px;
+}
+
+.info nav {
+  padding-left: 25px;
+}
+
+
+nav span {
+  display: inline-block;
+  justify-content: flex-end;
+  padding: 20px 10px;
 }
